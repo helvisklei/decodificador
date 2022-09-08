@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <link rel="stylesheet" href="../estilo/style.css">
+    <link rel="icon" type="image/x-icon" href="../imagem/icone.png">
+    <title>Decodificador</title>
+</head>
+<body>
+
+    <header>
+        <section class="logo">
+            <img src="../imagem/logo.png" alt="Logo da Alura">  
+        </section>    
+        <h1>Codificador e Decodificador de Texto</h1>
+    </header>
+    
+    <div style="overflow:auto">
+      
+      <main class="main">
+        <section >
+            <h2>Digite seu Texto</h2>
+            <textarea class="input-texto" cols="25%" rows="25%" placeholder="Escreva seu texto aqui"></textarea>
+            <div>
+                <h6 class="informacao">&#33; Apenas letras minúsculas e sem acentos</h6>
+            </div>
+
+            <div>
+                <button id="botaoCriptografar" class="encriptar" onclick="btnEncriptar()">
+                    Criptografar
+                </button>
+                <button id="botaoDescriptografar" class="desencriptar" onclick="btnDesencriptar()">
+                    Desencriptografar
+                </button>
+            </div> 
+            <div>
+                <button id="btnCopiar" class="btnCopiar" onclick="btncopiar()">
+                    Copiar
+                </button>
+            </div>
+
+        </section>
+        
+      </main>
+    
+      <aside class="right">
+
+        <section>        
+            <textarea id="txtareadireita" class="mensagem"></textarea> 
+            <div id="dvOcultar">       
+            <img src="../imagem/boneco.png" class="centralizarboneco" alt="imagem boneco centralizado">
+            <h2 id="alinhatextoboneco">Nenhuma mensagem encontrada</h2>
+            <p>Digite um texto que você deseja criptografar ou descriptografar</p>
+            </div>            
+        </section>
+        
+        
+    </aside>
+    </div>
+    <script src="../controle/script.js"></script>
+    <footer>© copyright Helvisklei SI</footer>
+    
+    </body>
+</html>
