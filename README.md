@@ -1,6 +1,6 @@
 ﻿# Codificador e Decodificador 
 
-Esse foi o projeto que eu aprendi em fazer utilizando HTML, CSS e java Script.
+Esse foi o projeto que eu aprendi fazer utilizando HTML, CSS e java Script.
 # Projeto feito no curso Next One Oracle e Alura
 # Trabalhando Com Java Script
 # Trabalhando com CSS
